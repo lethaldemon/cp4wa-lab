@@ -46,3 +46,9 @@ Using these common integration types, to speed up connecting Metric Manager to y
 The latest list and more detail of the mediation packs can be found in IBM documentation (https://www.ibm.com/docs/en/oapi/1.3.6?topic=resources-mediation-packs ).
 
 Some of the key concept and terminology for Metric Manager are listed near the end of this document.
+
+
+<img src="./images/mediation_1.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+<img src="./images/mediation_2.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+<img src="./images/mediation_3.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+<img src="./images/mediation_4.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
