@@ -12,6 +12,25 @@ Here is a diagram on Watson AIOps Metric Manager.
 
 <img src="./images/mm01.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
 
+### Lab setup.
+
+Watson AIOps Metric Manager learns the behavior of the metrics that it ingests. To allow you to see the results in this lab, we have replicated a selected data stream from another system and feed it to the CP4WA-MM data mediation process.  The date range of the data feed is from the 1st of April 2021 00:00 AM to the 25th of April 2:55 PM. The data is coming in 5 minutes intervals. CP4WA-MM processed the data, as they come, near real-time. Therefore, the lab simulates what the user will see on the 25th of April 2021 at 3:00 PM.
+
+The data comes from a performance manager in a data center.  Data includes application and infrastructure response time,   ...
+The data comes every 5 minutes.  MM processed related data in a topic.  In this lab, the topic is THINK21.
+
+MM generates an alert when it detects abnormal behavior that might indicate a potential problem. 
+
+A typical use of MM is to observe and act on the generated alerts.  These alerts can be pushed to the rest of Watson AIOps and create stories and Chatops notifications.  We will be looking only at alerts and MM interfaces.
+
+We will start the first exercise by giving you an overview of the generated anomaly.
+
+To start the lab, browse to:
+http://eolas.ibm.com:16310/ibm/console
+login as user: labuser01 - labuser20
+password: Think2021
+
+There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area.
 
 ### [Use Case 1:](./uc1/)
 
