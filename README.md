@@ -1,4 +1,4 @@
-# think-20210-lab-2177
+# Lab 2177: Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
 
 ## AI Manager
 
