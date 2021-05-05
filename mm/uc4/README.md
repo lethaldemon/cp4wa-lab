@@ -40,7 +40,7 @@ Hover the mouse on the forecasted metric, until you are above 8,500 values.
 <img src="./images/UC44.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
 <br>
 
-In this particular scenario the customer have set the threshold for response time at 8,500 miliseconds, or 8.5 seconds.  This will occur at 4:35 PM.  Metric Manager manage to alert the user prior to this value being reached, allowing the customer and __Early Detection__ of potential problem.
+For the purpose of this lab, let us say that you have set the threshold at  at 8,500 miliseconds, or 8.5 seconds. ( The customer from where this data is extracted from actually set the threshold at 9 seconds).  The threshold will be breached at 4:35 PM.  Metric Manager manage to alert the user prior to this value being reached, allowing the customer an __Early Detection__ of potential problem.
 
 
 #### [<Prev](../uc3)                                         [Next>](../mediation)

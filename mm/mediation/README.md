@@ -46,10 +46,27 @@ Using these common integration types, to speed up connecting Metric Manager to y
 
 The latest list and more detail of the mediation packs can be found in IBM documentation (https://www.ibm.com/docs/en/oapi/1.3.6?topic=resources-mediation-packs ).
 
-Some of the key concept and terminology for Metric Manager are listed near the end of this document.
+#### The lab exercise.
+
+Metric Manager generates Information Events as it is ingesting the mediation data.
+
+You can see the mediation progress and completion by going to the `Event Viewer` pages of Watson AIOps Event Manager.
+
+For this lab, a page has been created.
+
+Select the Flag (incident) icons, and select the `MetricManagerMediation`.
+
+An Event Viewer screen will be displayed with `MetricManagerInfo` Filter has been preselected.  
+
+<img src="./images/mediation_2.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+<br>
+
+Observe:
+
+- All alerts are information alerts, they are of lower severity.
+- The beginning of the training time is shown by the `New model traning started`.
+- As the training is being performed, you can see the progression: 25%, 50%, 75%.
+- Once the training is completed, a `New model produced` information is generated.
 
 
-<img src="./images/mediation_1.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<img src="./images/mediation_2.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<img src="./images/mediation_3.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<img src="./images/mediation_4.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+#### [<Prev](../uc4)                                         [Reference>](../ref/)
