@@ -47,9 +47,9 @@ There should already be a bookmark labeled "IBM Dashboard Application" on the fi
 
 Click on the Use Case 1 below.
 
-### [Use Case 1: Anomaly Dashboard](./uc1/)
+### [Use Case 1: Anomaly Dashboard and Causal Group](./uc1/)
 
-### [Use Case 2:](./uc2/)
+### [Use Case 2: Flat line causing Slow Response Time](./uc2/)
 
 ### [Use Case 3:](./uc3/)
 
