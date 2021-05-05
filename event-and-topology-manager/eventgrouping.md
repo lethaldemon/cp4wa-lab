@@ -1,10 +1,12 @@
 # Introduction
 
-As part of reducing the noise, one of the analytical capability built into the event manager is to group the events. As part of this tutorial you will
+Event manager provides the industry leading advanced event correlation. It uses algorithms like association rule-learning, temporal, spatial clustering and other machine learning (ML) algorithms. It measures accuracy, chesion and completeness of the correlation. This, not only reduces the event flood, but also accelerates the incident diagnosis.
+
+As part of this tutorial you will
 
 * [Launch the console](#Launch-the-console)
-* [Group the events](#Group-the-events)
-* [Navigate the event viewer](#Navigate-the-event-viewer)
+* [Analytics based grouping of the events](#Analytics-based-grouping-of-the-events)
+* [Further navigation tips ](#Further-navigation-tips )
 
 ## Launch the console
 
@@ -21,12 +23,16 @@ password: xxxxxxxxxx
 Once you login, you can navigate to the event viewer.  
 ![after-login](images/home.png)  
 
-## Group the events
+## Analytics based grouping of the events
+
+Click on the flag icon which is highlighted to launch the event viewer. **Note**: change the default to Default filter.  As your user is assigned **operator** role, you will not have the capability to edit the filters and edit the views. Those icons in the console are colored blue. 
+
+![event viewer](images/eventviewer1.png)
 
 By default, out of the box, example analytics is provided. This is named as **Example_IBM_CloudAnalytics**, listed in the toolbar. This analyzes the events and groups the events where the event rate is high ( greater than 50 per minute)
 Note: **Document why the events are grouped**
 
-You will notice the appearcance of ![down-arrow](images/downarrow.png) icon before the **Sev** column. This means that few events are grouped. You click it to display all the events that grouped where the event rate is greater than 50 per min. 
+You will notice the appearcance of ![down-arrow](images/downarrow.png) icon before the **Sev** column. This means that few events are grouped. You click it to display all the events that grouped, where the event rate is greater than 50 per min. 
 
 ![expand-events](images/eventviewer3.png)  
 
@@ -34,15 +40,11 @@ You can view why the events are grouped together. Select the event which has **G
 
 ![event-group=details](images/groupinfo.png)  
 
-## Navigate to the event viewer  
+## Further navigation tips  
 
-Click on the flag icon which is highlighted to launch the event viewer. **Note**: change the default to Default filter.  As your user is assigned **operator** role, you will not have the capability to edit the filters and edit the views. Those icons in the console are colored blue. 
+You also can act on these events further. If you scroll from left to right, you will find where these 
 
-![event viewer](images/eventviewer1.png)   
-
-In this view, you can get accustomed to  
-
-1. **Search Events**: You will see events that are available in the system as your user-id is provided access to list all the events. In this view, you will notice all events in the system are displayed. Select and click on the search icon ![search](images/search.png) and type **myapp.example.com**.  This will filter the events that match the string.  To remove the search filter you can click on **x** in the search field.
+1. **Search Events**: You will see events that are available in the system as your user-id is provided access to list all the events. Select and click on the search icon ![search](images/search.png) and type **myapp.example.com**.  This will filter the events that match the string.  To remove the search filter you can click on **x** in the search field.
 
 ![filter](images/filter.png)   
 
