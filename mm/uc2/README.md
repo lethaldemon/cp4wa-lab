@@ -1,10 +1,31 @@
 # THINK 2021, Lab:2177
 ## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
 ## Metric Manager
+### Use Case 2: Flat line causing Slow Response Time
 
-# think-20210-lab-2177
-## Metric Manager
-### Use Case 2:
+#### Metric Manager Anomaly Alarms
+
+The usual way that an Operation center works, is through `Management by Exception`. Basically the SREs is expected to be notified if something goes wrong.  Metric Manager improves this by sending anomaly.  It sends alarms/alerts when something is about to go wrong.  These alerts allows the SREs with `Incident Avoidance` tools, hence improving `Mean time between failure`.
+
+#### Flat line causing Slow Response Time
+
+When a metric normally varies and then stops varying it almost always means something has gone wrong. It's stuck, or something feeding it is stuck or something it's sending to is stuck.  The ability to detect this behaviour is useful. All customers with systems that have limits of some kind – memory on a machine, connections to a database, traffic through a link, flow through a pipe etc. will find this valuable.  Metric Manager allows you to detect the threshold has been met without knowing the actual limit itself.
+
+#### The Scenario
+The data for this use case is from a customer when the connections to their database was behaving unexpectedly. The connection pool for the customers application normally grew and shrunk constantly throughout the day as the usage of the system varied but Predictive Insights detected that this behaviour had changed. The application was stuck at the limit of it's resources and this was slowing the performance for users. It gave a clear starting point and root cause for a poor performance issue, which are notoriously difficult to diagnosis.
+
+#### The lab exercise.
+Close your current tab from the previous use case.   Click the Flag icon (for incidents) from the menu strip on the right.  Select `Detected Anomalies` menu item.  If you are familiar with Watson AIOps Event Viewer, this is the `Event Viewer` page with the `MetricManagerAnomalies` Filter and `MetricManagerView` View already preselected. 
+
+<img src="./images/UC20.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+<br>
+
+Observe:
+- From the top bar you can see that there is 1 `Major` alarms (Orange Exclamation Symbol) and 12 `Minor` alarms (Yellow Exclaimation Symbol).
+- The default Severity for the anomaly alerts is `Minor`.
+- Check the list for individual anomalies discovered by Predictive Insights.You can see when an anomaly has started and finished occurring in `FirstOccurrence` and `LastOccurrence` columns. `Summary` column describes the anomaly. `Count` shows how many times the anomaly has occurred. Columns like `Node`, `AnomalousResource`, `AnomalousMetric`, `Direction` provide additional information on the anomaly.
+- There is one alert with severity `Major`. Major anomalies represent consolidated alarms found by Metric Manager. In the `Summary` column you can see the type of consolidation and how many metrics or nodes are involved.
+
 
 <img src="./images/UC21.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
 <img src="./images/UC22.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
