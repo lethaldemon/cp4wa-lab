@@ -53,8 +53,6 @@ Click on the Use Case 1 below.
 
 ### [Use Case 3: Forecast](./uc3/)
 
-### [Use Case 4:](./uc4/)
-
 ### [Mediation](./mediation/)
 
 ### [Reference](./ref/)
