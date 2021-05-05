@@ -3,9 +3,9 @@
 ## Metric Manager.
 ### Use Case 2: .Flat line causing Slow Response Time.
 
-#### Metric Manager Anomaly Alarms.
+#### Metric Manager Anomaly events.
 
-The usual way that an Operation center works is through `Management by Exception`. Basically, the SREs are expected to be notified if something goes wrong.  Metric Manager improves this by sending anomalies.  It sends alarms/alerts when something is about to go wrong.  These alerts allow the SREs with `Incident Avoidance` tools, hence improving `Meantime between failure`.
+The usual way that an Operation center works is through `Management by Exception`. Basically, the SREs are expected to be notified if something goes wrong.  Metric Manager improves this by sending anomalies.  It sends events when something is about to go wrong.  These events allow the SREs with `Incident Avoidance` tools, hence improving `Meantime between failure`.
 
 #### Flatline causing Slow Response Time.
 
@@ -23,12 +23,12 @@ Close your current tab from the previous use case.   Click the Flag icon (for in
 <br>
 
 Observe:
-- From the top bar, you can see that there is 1 `Major` alarms (Orange Exclamation Symbol) and 12 `Minor` alarms (Yellow Exclamation Symbol).
-- The default Severity for the anomaly alerts is `Minor`.
+- From the top bar, you can see that there is 1 `Major` events (Orange Exclamation Symbol) and 12 `Minor` events (Yellow Exclamation Symbol).
+- The default Severity for the anomaly events is `Minor`.
 - Check the list for individual anomalies discovered by Predictive Insights. You can see when an anomaly has started and finished occurring in the `FirstOccurrence` and `LastOccurrence` columns. `Summary` column describes the anomaly. `Count` shows how many times the anomaly has occurred. Columns like `Node`, `AnomalousResource`, `AnomalousMetric`, and `Direction` provide additional information on the anomaly.
-- There is one alert with the severity `Major`. The major anomalies represent consolidated alarms found by Metric Manager. In the `Summary` column, you can see the type of consolidation and how many metrics or nodes are involved.
+- There is one event with the severity `Major`. The major anomalies represent consolidated events found by Metric Manager. In the `Summary` column, you can see the type of consolidation and how many metrics or nodes are involved.
 
-Select the alert with Summary `Connectionpoolsize is now a flat line where before it was varying` and Node `PrimaryKWPUBIIS06`.
+Select the event with Summary `Connectionpoolsize is now a flat line where before it was varying` and Node `PrimaryKWPUBIIS06`.
 
 Observe:
 

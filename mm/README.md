@@ -13,9 +13,7 @@ In Operation, once Metric Manager continuously ingests the metric data, as an SR
 Here is a diagram on Watson AIOps Metric Manager.
 
 <img src="./images/mm01.png" alt="Watson AIOps Metric Manager" width="800" align="center"/>
-
-IAN:  We need to change this image. We have "Anomalies and Alarms".  I think we should change that to just "Anomaly Events".  We would also want to remove "Causal and Consolidated alarms" as grouping in Watson AIOps will happen at the Event Manager layer - grouping with Topology, Scope Based or Temporal Correlation.  The Anomaly Events go to Event Manager via Kafka automatically, and are cleared when no longer active.
-
+<br>
 
 ### Lab setup.
 
@@ -26,6 +24,13 @@ To start the lab, if you have not done so, access the VM image. If it has not be
 
 Like other Watson AIOps Lab exercises, you will be working in the __rhdesk__ images.
 Once both images are running, click on the _rhdesk_ image and start your web sessions.
+
+The following table list the username and password for the lab exercise.
+
+| Component | User Name | Password |
+| --- | :---: | :---: |
+| Linux | `ibmuser` | `engageibm!` |
+| DASH | `ncoadmin` | `ncoadmin` |
 
 Login as `ibmuser` by clicking on the name displayed. The password is `engageibm!`.
 <br>
@@ -47,7 +52,7 @@ We will start the first exercise by giving you an overview of the generated anom
 
 The Metric Manager lab exercise is grouped into Use Cases. You will use the Firefox browser to perform the lab exercise.
 Start firefox by either clicking on the firefox log on the menu bar or on the desktop.
-There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area. Login as user `scadmin` with password `scadmin`.
+There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area. Login as user `ncoadmin` with password `ncoadmin`.
 
 Click on the Use Case 1 below.
 

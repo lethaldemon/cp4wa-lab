@@ -4,13 +4,13 @@
 ### Use Case 3: Dynamic Threshold.
 
 #### Dynamic Threshold.
-In this lab, we are looking at the Dynamic Threshold capability of Metric Manager.  We will be looking at data extracted and sanitized from a customer.  The key here is the resource being monitored is still capable of handling the traffic.  In traditional monitoring, most likely, the threshold has not been breached, yet, due to abnormal behavior, Metric Manager allows a pro-active alarm to be generated.
+In this lab, we are looking at the Dynamic Threshold capability of Metric Manager.  We will be looking at data extracted and sanitized from a customer.  The key here is the resource being monitored is still capable of handling the traffic.  In traditional monitoring, most likely, the threshold has not been breached, yet, due to abnormal behavior, Metric Manager allows a pro-active event to be generated.
 
 #### The Customer.
 This scenario occurred at a major telecommunications company in the US.
 
 #### The User Case.
-Metric Manager alerted a customer that there was much more traffic than usual on many of their network links. These links had sufficient capacity for this new traffic, so any other systems generated no static monitoring alarms. It was __a denial of service attack__ that they detected before any of their customers were affected.
+Metric Manager alerted a customer that there was much more traffic than usual on many of their network links. These links had sufficient capacity for this new traffic, so any other systems generated no static monitoring events. It was __a denial of service attack__ that they detected before any of their customers were affected.
 
 Any customers with public-facing channels of any kind would typically be interested in this.
 Denial-of-service type attacks are often not deliberate or malicious but result from misconfiguration, poor change management, or failures in a system.
@@ -46,13 +46,13 @@ We can take a closer look at the area of interest by zooming. Click on the chart
 
 Observe:
 
-- Typically, metrics have shifting behavior and short-lived natural spikes. The same metric may have very different expected values on different resources. This leads to a one-size-fits-all for static thresholds – too tight, and there are many alarms, which end up being ignored. Too loose, and problems are not found until users are impacted. 
+- Typically, metrics have shifting behavior and short-lived natural spikes. The same metric may have very different expected values on different resources. This leads to a one-size-fits-all for static thresholds – too tight, and there are many events, which end up being ignored. Too loose, and problems are not found until users are impacted. 
 - In this case, the link in question can handle this throughput without a problem but will have a problem later if it keeps growing. 
 - If it stops growing, the system is still showing far more capacity usage than it's really using, potentially leading to wastefulness and unnecessary upgrades.
 
 #### Customer Value.
 
-- Dynamic thresholds and alarming on every metric in your system without any configuration.
+- Dynamic thresholds and eventing on every metric in your system without any configuration.
 - Early detection of emerging problems so that action can be taken before the users are impacted.
 - Single place where every metric from every data source can be visualised together with its normal behavior.
 

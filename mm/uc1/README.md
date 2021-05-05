@@ -37,7 +37,7 @@ Observe by:
 - Hover your mouse on the shapes and histogram, and notice the information popup.
 - Notice the Topic Name THINK21 in the data. Metric Manager analyzes the relationship between KPIs (resources and metrics} in the same topic. 
 
-We want to look at the resources in our data set that produces the most Alarms. `Server:HDD1` has the biggest circle, with alarm counts of 4. Let us look at the resource that produces the most anomaly. Click on the biggest circle in the __Top 10 Anomalous Resources__, and you will see the list of the four groups.
+We want to look at the resources in our data set that produces the most events. `Server:HDD1` has the biggest circle, with event counts of 4. Let us look at the resource that produces the most anomaly. Click on the biggest circle in the __Top 10 Anomalous Resources__, and you will see the list of the four groups.
 
 <img src="./images/UC13.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
@@ -52,7 +52,7 @@ Select the first row and click Launch.
 #### Causal Group.
 
 In the first upper portion 
-An alarm will be generated per the red area of the graph.
+An event will be generated per the red area of the graph.
 Observe by:
 - Click the arrow in the box, and you can see the values of the metrics value threshold violation.
 - This can also be achieved by hovering your mouse on the graph inside the red area.
