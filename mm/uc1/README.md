@@ -9,7 +9,7 @@
 You start this lab exercise by already logged in as user `scadmin` in the `DASH`.
 From the dashboard, click the incident menu (it looks like a flag).
 
-<img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="300" align="center"/>
+<img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="250" align="center"/>
 <br>
 
 There are three menu options related to Metric Manager: 
@@ -88,3 +88,6 @@ Deselect all other Metric, and leave `Responsetime` of `MyWebService` selected. 
 <img src="./images/UC18.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
 
+Observe that:
+- At the beginning metric manager do not have enough data to deterimne the detail baseline, and the shape is very wide.  
+- As metric manager learns data, the baseline become more `shapely`.  The baseline create a tighter countour to determine the anomalous behavious.
