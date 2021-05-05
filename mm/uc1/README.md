@@ -57,7 +57,7 @@ Look at the bottom section of the page.
 
 <img src="./images/UC15.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 
-Metric Manager as part of its algorithm perform casual group ( See the [reference](./ref/) section). This section shows the casual group of the chosen KPI (Resource: `Server HDD1`, Metric: `Blkwrtnpersec`) for this page (the one that you choose from the previous 4 rows table.)
+Metric Manager as part of its algorithm perform causal group ( See the [reference](../ref/) section). Note the term causal, one may cause the other, not casual as in casual shirt. This section shows the casual group of the chosen KPI (Resource: `Server HDD1`, Metric: `Blkwrtnpersec`) for this page (the one that you choose from the previous 4 rows table.)
 
 Observe that:
 - Metric Manager suggest that the `Responsetime` of `MyWebService` and the `Responsetime` of my applicaiton `Worklight17KYNS` are related or effected by the performance degradation of `Blkwrtnpersec` of `Server:HDD1`.  Note Metric Manager derived this relationship just based on the ingested data alone, there is no configuration or relationship definition required.
