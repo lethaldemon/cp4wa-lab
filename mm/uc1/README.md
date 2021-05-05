@@ -1,6 +1,7 @@
-# think-20210-lab-2177
+# THINK 2021, Lab:2177
+## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
 ## Metric Manager
-### Use Case 1:
+### Use Case 1: Anomaly Dashboard
 
 <img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
 <img src="./images/UC12.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>

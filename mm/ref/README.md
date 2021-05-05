@@ -1,6 +1,7 @@
-
-
-### Metric Manager Terminology and Concept
+# THINK 2021, Lab:2177
+## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
+## Metric Manager
+### Reference: Metric Manager Terminology and Concept
 
 Some of the concepts of Metric Manager.
 - __Training__.  Training is the number of weeks (default 2) by which Watson AIOps Metric Manager builds its analytics model and learns the behaviour for the metric groups, metrics and resources defined in the mediation model.
