@@ -2,7 +2,7 @@
 
 ## AI Manager
 
-## [Event Manager](evnet-and-topology-manager/README.md)
+## [Event Manager](./event-and-topology-manager/README.md)
 
 
 ## [Metric Manager](./mm/)
