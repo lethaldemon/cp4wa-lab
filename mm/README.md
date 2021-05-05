@@ -1,5 +1,6 @@
-# think-20210-lab-2177
-## IBM Cloud Pak for Watson AIOps: Metric Manager
+# THINK 2021, Lab:2177
+## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
+## Metric Manager
 
 Watson AIOps Metric Manager consume and analyse your metrics or time series data and provides **early warning** of *abnormal behaviour* which might be indicative of potential outage, service degradation or unexpected change. 
 
@@ -37,9 +38,11 @@ A typical use of MM is to observe and act on the generated alerts.  These alerts
 
 We will start the first exercise by giving you an overview of the generated anomaly.
 
-There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area.
+There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area.  Start firefox by either clicking on the firefox log on the menu bar or on the desktop.
 
-### [Use Case 1:](./uc1/)
+Click on the Use Case 1 below.
+
+### [Use Case 1: Anomaly Dashboard](./uc1/)
 
 ### [Use Case 2:](./uc2/)
 
