@@ -3,8 +3,8 @@
 ## Metric Manager
 ### Use Case 1: Anomaly Dashboard
 
-<img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<img src="./images/UC12.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
+<img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="300" align="center"/>
+<img src="./images/UC12.png" alt="Watson AIOps Metric Manager" width="800" align="center"/>
 
 
 
