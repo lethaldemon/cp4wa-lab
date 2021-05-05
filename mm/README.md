@@ -23,7 +23,8 @@ Similar to other Watson AIOps Lab exercise you will be working in the __rhdesk__
 Once both images are running, click on the _rhdesk_ image and start your web sessions.
 
 
-Login as ibmuser by clicking on the name, and the password is `engageibm!`
+Login as ibmuser by clicking on the name, and the password is `engageibm!`.
+<br>
 <img src="./images/mm03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
 ### Lab Exercises
