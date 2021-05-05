@@ -40,7 +40,7 @@ The following are to check that the services are running.
 
 As user scadmin (password scadmin) run
 ```
-db2start.  # If db2 already run it tells you that and exit.  if not it will run it.
+db2start  # If db2 already run it tells you that and exit.  if not it will run it.
 ps -ef | grep nco_objserv   # you should see one process running.  if not see the next step to start object server.
 ps -ef | grep -i jazzsm    # you should see one process.  if no start next section.
 ```

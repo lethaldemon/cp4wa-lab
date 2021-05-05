@@ -18,4 +18,4 @@ We have two different types of baseline. One that changes with the KPI value, wh
 - __Topic__. A topic is a method by which Watson AIOps Metric Manager can separate data logically by geographical location, application, or any other grouping, making sense to the user. 
 - __Training__. Training is the number of weeks (default 2) by which Watson AIOps Metric Manager builds its analytics model and learns the behavior for the metric groups, metrics, and resources defined in the mediation model.
 
-#### [<Mediation](../mediation)                                         [Back^](../)
+#### [<Mediation](../mediation/)                                         [Back^](../)
