@@ -1,9 +1,12 @@
 # THINK 2021, Lab:2177.
 ## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps.
 ## Metric Manager.
-### Use Case 1: Anomaly Dashboard.
+### Use Case 1: Anomaly Dashboard and Causal Group.
 
-#### Metric Manager Anomaly Dashboard.
+#### Causal Group
+This use case highlights Metric Manager capabilities in creating a causal group: a group of KPIs that relate to each other. It is useful in operation, as when there is a potential issue, you may want to know other factors or alerts related to or caused by the issue.  This is an area where all SREs want to know to resolve the potential problem quickly.
+
+#### Metric Manager Anomaly Dashboard
 
 You start this lab exercise by already logged in as user `scadmin` in the `DASH`.
 From the dashboard, click the incident menu (it looks like a flag).
@@ -95,5 +98,13 @@ Deselect all other Metric, and leave `Responsetime` of `MyWebService` selected. 
 <br>
 
 Observe that:
+<<<<<<< HEAD
 - In the beginning, the metric manager does not have enough data to determine the detailed baseline, and the shape is very wide.
 - As the metric manager learns data, the baseline becomes more `shapely`. The baseline creates a tighter contour to determine the anomalous behaviors.
+=======
+- At the beginning metric manager do not have enough data to deterimne the detail baseline, and the shape is very wide.  
+- As metric manager learns data, the baseline become more `shapely`.  The baseline create a tighter countour to determine the anomalous behavious.
+
+
+#### [<Prev](../)                                         [Next >](../uc2/)
+>>>>>>> upstream/master
