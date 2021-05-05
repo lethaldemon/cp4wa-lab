@@ -93,3 +93,6 @@ Deselect all other Metric, and leave `Responsetime` of `MyWebService` selected. 
 Observe that:
 - At the beginning metric manager do not have enough data to deterimne the detail baseline, and the shape is very wide.  
 - As metric manager learns data, the baseline become more `shapely`.  The baseline create a tighter countour to determine the anomalous behavious.
+
+
+#### [<Prev](../)                                         [Next >](../uc2/)

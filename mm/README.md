@@ -51,7 +51,7 @@ Click on the Use Case 1 below.
 
 ### [Use Case 2: Flat line causing Slow Response Time](./uc2/)
 
-### [Use Case 3:](./uc3/)
+### [Use Case 3: Forecast](./uc3/)
 
 ### [Use Case 4:](./uc4/)
 
