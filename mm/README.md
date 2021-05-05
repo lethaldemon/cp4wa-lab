@@ -23,24 +23,19 @@ Once both images are running, click on the _rhdesk_ image and start your web ses
 
 
 Login as ibmuser by clicking on the name, and the password is `engageibm!`
-<img src="./images/mm03.png" alt="Watson AIOps Lab images" width="500" align="center"/>
+<img src="./images/mm03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
-
+### Lab Exercises
 Watson AIOps Metric Manager learns the behavior of the metrics that it ingests. To allow you to see the results in this lab, we have replicated a selected data stream from another system and feed it to the CP4WA-MM data mediation process.  The date range of the data feed is from the 1st of April 2021 00:00 AM to the 25th of April 2:55 PM. The data is coming in 5 minutes intervals. CP4WA-MM processed the data, as they come, near real-time. Therefore, the lab simulates what the user will see on the 25th of April 2021 at 3:00 PM.
 
-The data comes from a performance manager in a data center.  Data includes application and infrastructure response time,   ...
-The data comes every 5 minutes.  MM processed related data in a topic.  In this lab, the topic is THINK21.
+The data comes from a performance manager in a data center.  Data includes application and infrastructure performance data.
+The data comes every 5 minutes.  Metric Manager processed related data in a topic. A [reference](./ref/) section had been included to explain the term used. In this lab, the topic is THINK21.
 
 MM generates an alert when it detects abnormal behavior that might indicate a potential problem. 
 
 A typical use of MM is to observe and act on the generated alerts.  These alerts can be pushed to the rest of Watson AIOps and create stories and Chatops notifications.  We will be looking only at alerts and MM interfaces.
 
 We will start the first exercise by giving you an overview of the generated anomaly.
-
-To start the lab, browse to:
-http://eolas.ibm.com:16310/ibm/console
-login as user: labuser01 - labuser20
-password: Think2021
 
 There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area.
 
@@ -55,3 +50,6 @@ There should already be a bookmark labeled "IBM Dashboard Application" on the fi
 ### [Mediation](./mediation/)
 
 ### [Reference](./ref/)
+
+
+#### [Next >](./uc1/)
