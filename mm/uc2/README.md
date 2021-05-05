@@ -81,4 +81,4 @@ In normal operation the system runs very close to it's limit. That is why the sy
 
 _Before Predictive Insights (previous name of Metric Manager), it took 30 minutes to decide what to investigate. Now it takes less than 3 minutes_
 
-#### [<Prev](../uc1)                                         [Next >](../uc3/)
+#### [<Prev](../uc1)                                         [Next>](../uc3/)
