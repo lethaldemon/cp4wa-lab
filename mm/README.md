@@ -27,6 +27,15 @@ Login as `ibmuser` by clicking on the name displayed. The password is `engageibm
 <br>
 <img src="./images/mm03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
+The following table list the username and password for the lab exercise.
+
+! --- ! --- ! --- !
+! Component ! User Name ! Password !
+! --- ! --- ! --- !
+! Linux ! ibmuser ! engageibm! !
+! DASH ! ncoadmin ! ncoadmin !
+! --- ! --- ! --- !
+
 > **Note:** In this guide, you can always click on the diagram to see the bigger picture.
 
 ### Lab Exercises
@@ -43,7 +52,7 @@ We will start the first exercise by giving you an overview of the generated anom
 
 The Metric Manager lab exercise is grouped into Use Cases. You will use the Firefox browser to perform the lab exercise.
 Start firefox by either clicking on the firefox log on the menu bar or on the desktop.
-There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area. Login as user `scadmin` with password `scadmin`.
+There should already be a bookmark labeled "IBM Dashboard Application" on the firefox Bookmark toolbar area. Login into DASH as user `ncoadmin` with password `ncoadmin`.
 
 Click on the Use Case 1 below.
 
