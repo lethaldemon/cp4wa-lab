@@ -1,8 +1,10 @@
 # THINK 2021, Lab:2177
 ## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps
 ## Metric Manager
-### Use Case 3 Forecast:
+### Use Case 3: Dynamic Threshold
 
+#### Dynamic Threshold
+In this lab we are looking at the Dynamic Threshold capability of Metric Manager.  We will be looking at data extracted and sanitized from a customer.  The key here is the resource being monitored is still capable of handling the traffic.  In traditional monitoring most likely the threhold has not been breached, yet, due to abnormal behaviour, Metric Manager allows a pro-active alarm to be generated.
 
 #### The Customer
 This scenario occurred at a major telecommunications company in the US
@@ -37,23 +39,24 @@ Observe:
 - The green area is the baseline that indicates the expected range of values. 
 - The red zone at the right of the chart shows where something unexpected has happened
 
+We can take a closer look at the area of interest by zooming Click on the chart where we want to start the zoom and drag to cover just past the red area. You always should include some the charts “normal” values so you can compare
 
 <img src="./images/UC34.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
 
-<img src="./images/UC35.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
-<br>
+Observe:
 
-<img src="./images/UC36.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<br>
+- Typically metrics have shifting behaviour and natural short lived spikes. The same metric may have very different expected values on different resources. This leads to a one-size-fits-all for static thresholds – too tight and there are many alarms, which end up being ignored. Too loose and problems are not found until users are impacted. 
+- In this case the link in question is capable of handling this throughput without a problem, but will have a problem later if it keeps growing. 
+- If it stops growing the system is still showing far more capacity usage than its really using, potentially leading to wastefulness and unnecessary upgrades.
 
-<img src="./images/UC37.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<br>
+#### Customer Value
+- Dynamic thresholds and alarming on every metric in your system without any configuration.
+- Early detection of emerging problems so that action can be taken before the users are impacted.
+- Single place where every metric from every data source can be visualised together along with it's normal behaviour.
 
-<img src="./images/UC38.png" alt="Watson AIOps Metric Manager" width="500" align="center"/>
-<br>
+#### Customer Quotes
+_IBM was able to detect 100% of the major incidents that occurred, including silent failures and predicting outages where possible; showing an annual saving of ~300k and product payback period of 5 months_
 
 
-
-
-#### [<Prev](../uc3)                                         [Back ^](../)
+#### [<Prev](../uc3)                                         [Next >](../uc4)
