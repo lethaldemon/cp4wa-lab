@@ -4,7 +4,7 @@ One of the analytical capabilities built into the event manager is the event gro
 
 * [Launch the console.](#Launch-the-console)
 * [Group the events.](#Group-the-events)
-* [Navigate the event viewer.](#Navigate-the-event-viewer)
+* [Navigate to the event viewer.](#Navigate-to-the-event-viewer)
 
 ## Launch the console.
 
