@@ -48,15 +48,11 @@ The latest list and more detail of the mediation packs can be found in IBM docum
 
 #### The lab exercise.
 
-Metric Manager generates Information Events as it is ingesting the mediation data.
+Metric Manager generates Information Events as it is ingesting the mediation data. You can see the mediation progress and completion by going to the `Event Viewer` pages of Watson AIOps Event Manager.
 
-You can see the mediation progress and completion by going to the `Event Viewer` pages of Watson AIOps Event Manager.
+For this lab, a page has been created. Select the Flag (incident) icons, and select the `MetricManagerMediation`.
 
-For this lab, a page has been created.
-
-Select the Flag (incident) icons, and select the `MetricManagerMediation`.
-
-An Event Viewer screen will be displayed with `MetricManagerInfo` Filter has been preselected.  
+An Event Viewer screen will be displayed with `MetricManagerInfo` Filter preselected.  
 
 <img src="./images/mediation_2.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
