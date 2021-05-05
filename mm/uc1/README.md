@@ -4,7 +4,7 @@
 ### Use Case 1: Anomaly Dashboard
 
 
-## Metric Manager Anomaly Dashboard
+#### Metric Manager Anomaly Dashboard
 
 You start this lab exercise by already logged in as user `scadmin` in the `DASH`.
 From the dashboard, click the incident menu (it looks like a flag).
@@ -45,6 +45,8 @@ Select the first raw and click Launch.
 <img src="./images/UC14.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
 
+#### Causal Group
+
 In the first upper portion 
 An alarm will be generated per red area of the graph.  
 Observe by:
@@ -63,9 +65,26 @@ Observe that:
 - `Worklight17KYNS` while in the same casual. group, does not independently produce anomaly.
 
 Now let us see the performance data of `MyWebService` resource compare to `Server:HDD1`.  Select the `Responsetime` tick box.  
+<img src="./images/UC16.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+<br>
+Observe that:
+- the performance graph of the two KPIs are dffers however they have similar spikes.
+
+Note in the screencapture above the server harddisk metrics is displayed in black and the Web Service reponse time is displayed in blue.  The colour displayed on your screen might be different. If you are looking at thousands of metrics graph, as a human it is difficult to see the relationship between those metrics graph.  Metric Manager helps you by finding the relationship.  
+
+To add to the view the application performance data, select the `Responsetime` of `Worklight17KYNS`. 
 <img src="./images/UC17.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
+We can see how Metric Manager is suggesting that the 3 KPIs are related.
+Observe that:
+- The application graph (orange in the screen capture) have earlier spikes in addition to the related spikes.
 
-<img src="./images/UC16.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+#### Baseline
 
+Now, let us look at how Metric Manager builds the confidence (baseline) in the data.
+
+The green areas shows the baseline that Metric Manager maintains to compare the metrics for violation.
+Deselect all other Metric, and leave `Responsetime` of `MyWebService` selected.  Then zoom out the time displayed, by clicking and dragging on the time slider on the bottom left of the graph, until you see something like the following:
 <img src="./images/UC18.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+<br>
+
