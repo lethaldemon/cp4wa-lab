@@ -62,8 +62,8 @@ service dash start
 ```
 if you restart dash you might need to restart piui
 
-service stop piui
-service start piui
-service status piui
+service piui stop
+service piui start
+service piui status
 ```
 
