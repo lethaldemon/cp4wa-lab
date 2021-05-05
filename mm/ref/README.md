@@ -16,3 +16,4 @@ The baseline is constantly being recalculated. The baseline is defined using the
 - __Steady state__ is when you are loading for the latest interval which is in near real time. You are in steady state if you are loading your latest data close to now time through mediation and are scoring. Training may happen in steady state but it will take until the end of training period before alarms will appear.
 - __A causal group__ is the group of related metrics (max of 6) that are deemed to be related to an anomalous KPI. When you launch an alarm the causal group is displayed in the related metrics tab.
 - __Consolidated alarm__ is multiple alarms can be grouped together into one consolidated alarm in the AEL. Each can have a causal group of 6 max which may lead to many related metrics.
+- a __KPI (Key Performance Indicator)__ in the context of Metric Manager, is a combination a resource and its metrics.

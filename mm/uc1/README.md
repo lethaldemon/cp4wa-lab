@@ -38,7 +38,7 @@ We want to look at the resources in our data set that produces the most Alarms. 
 <img src="./images/UC13.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 <br>
 
-The `Blkwtrnpersec` comes from the original performance data. It is derived from the `Blocks Written Per Second` attribute of the Linux Disk IO data set (`Disk IO.Blk wrtn per sec`).
+The metric `Blkwtrnpersec` comes from the original performance data. It is derived from the `Blocks Written Per Second` attribute of the Linux Disk IO data set (`Disk IO.Blk wrtn per sec`).
 
 Select the first raw and click Launch.
 
@@ -46,15 +46,26 @@ Select the first raw and click Launch.
 <br>
 
 In the first upper portion 
-You can see the four alarms as the red area.  
+An alarm will be generated per red area of the graph.  
 Observe by:
 - Click the arrow in the box, and you can see the values of the metrics value threshold violation.  
 - This can also be achieved by hovering your mouse on the graph inside the red area.
 
+Look at the bottom section of the page.
+
 <img src="./images/UC15.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 
-Metric Manager as part of its algorithm perform casual group ( See the [reference](./ref/) section).
+Metric Manager as part of its algorithm perform casual group ( See the [reference](./ref/) section). This section shows the casual group of the chosen KPI (Resource: `Server HDD1`, Metric: `Blkwrtnpersec`) for this page (the one that you choose from the previous 4 rows table.)
+
+Observe that:
+- Metric Manager suggest that the `Responsetime` of `MyWebService` and the `Responsetime` of my applicaiton `Worklight17KYNS` are related or effected by the performance degradation of `Blkwrtnpersec` of `Server:HDD1`.  Note Metric Manager derived this relationship just based on the ingested data alone, there is no configuration or relationship definition required.
+- `MyWebService` also produced anomalies, this is indicated by the small diagram under the `Anomalous` column.
+- `Worklight17KYNS` while in the same casual. group, does not independently produce anomaly.
+
+Now let us see the performance data of `MyWebService` resource compare to `Server:HDD1`.  Select the `Responsetime` tick box.  
+<img src="./images/UC17.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+<br>
 
 <img src="./images/UC16.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
-<img src="./images/UC17.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
+
 <img src="./images/UC18.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>

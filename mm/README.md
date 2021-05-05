@@ -27,6 +27,8 @@ Login as ibmuser by clicking on the name, and the password is `engageibm!`.
 <br>
 <img src="./images/Metric Manager03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
+In this guide, you can always click at the diagram to see the bigger picture.
+
 ### Lab Exercises
 Watson AIOps Metric Manager learns the behavior of the metrics that it ingests. To allow you to see the results in this lab, we have replicated a selected data stream from another system and feed it to the CP4WA-Metric Manager data mediation process.  The date range of the data feed is from `the 1st of April 2021 00:00 AM` to `the 25th of April 2:55 PM`. The data is coming in 5 minutes intervals. CP4WA-Metric Manager processed the data, as they come, near real-time. Therefore, the lab simulates what the user will see on __the 25th of April 2021 at 3:00 PM__.
 
