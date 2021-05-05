@@ -29,12 +29,12 @@ Login as `ibmuser` by clicking on the name displayed. The password is `engageibm
 
 The following table list the username and password for the lab exercise.
 
-! --- ! --- ! --- !
-! Component ! User Name ! Password !
-! --- ! --- ! --- !
-! Linux ! ibmuser ! engageibm! !
-! DASH ! ncoadmin ! ncoadmin !
-! --- ! --- ! --- !
+| --- | --- | --- |
+| Component | User Name | Password |
+| --- | --- | --- |
+| Linux | ibmuser | engageibm! |
+| DASH | ncoadmin | ncoadmin |
+| --- | --- | --- |
 
 > **Note:** In this guide, you can always click on the diagram to see the bigger picture.
 
