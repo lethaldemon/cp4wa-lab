@@ -61,12 +61,12 @@ Look at the bottom section of the page.
 
 <img src="./images/UC15.png" alt="Watson AIOps Metric Manager" width="900" align="center"/>
 
-Metric Manager as part of its algorithm perform __causal group__ ( See the [reference](../ref/) section). Note the term _causal_; one metric may __cause__ the other, not casual as in casual shirt. This section shows the casual group of the chosen KPI (Resource: `Server HDD1`, Metric: `Blkwrtnpersec`) for this page (the one you choose from the previous four rows table.)
+Metric Manager as part of its algorithm perform __causal group__ ( See the [reference](../ref/) section). Note the term _causal_; one metric may __cause__ the other, not casual as in casual shirt. This section shows the causal group of the chosen KPI (Resource: `Server HDD1`, Metric: `Blkwrtnpersec`) for this page (the one you choose from the previous four rows table.)
 
 Observe that:
 - Metric Manager suggests that the `Responsetime` of `MyWebService` and the `Responsetime` of my application `Worklight17KYNS` are related or affected by the performance degradation of `Blkwrtnpersec` of `Server:HDD1`. Note Metric Manager derived this relationship just based on the ingested data alone. There is no configuration or relationship definition required.
 - `MyWebService` also produced anomalies. It is indicated by the small diagram under the `Anomalous` column.
-- `Worklight17KYNS`, while in the same casual group, does not independently produce anomaly.
+- `Worklight17KYNS`, while in the same causal group, does not independently produce anomaly.
 
 Now let us see the performance data of `MyWebService` resource compare to `Server:HDD1`. Select the `Responsetime` tick box.
 
@@ -98,13 +98,9 @@ Deselect all other Metric, and leave `Responsetime` of `MyWebService` selected. 
 <br>
 
 Observe that:
-<<<<<<< HEAD
+
 - In the beginning, the metric manager does not have enough data to determine the detailed baseline, and the shape is very wide.
 - As the metric manager learns data, the baseline becomes more `shapely`. The baseline creates a tighter contour to determine the anomalous behaviors.
-=======
-- At the beginning metric manager do not have enough data to deterimne the detail baseline, and the shape is very wide.  
-- As metric manager learns data, the baseline become more `shapely`.  The baseline create a tighter countour to determine the anomalous behavious.
 
 
 #### [<Prev](../)                                         [Next >](../uc2/)
->>>>>>> upstream/master
