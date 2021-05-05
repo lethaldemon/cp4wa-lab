@@ -3,7 +3,7 @@
 ## Metric Manager.
 ### Reference: Metric Manager Terminology and Concept.
 
-Some of the concepts of Metric Manager.
+Some of the terminologies and concepts of Metric Manager.
 
 - __Aggregation Interval__, The aggregation interval is the period by which metric data is grouped to be aggregated. Data is normalized to the same interval so the algorithms can process it. Usually, the aggregation interval needs to be set to the data collection interval or to the smallest common multiple of data collection intervals if several data sources are fed to a single algorithm. Typical values are 5 minutes, 15 minutes, or 1 hour.
 - __Analytics Model__. The analytics model learns behavior and automatically detects trends and behavior of metrics and resources using custom algorithms developed in conjunction with research from the Watson project.
@@ -18,3 +18,4 @@ We have two different types of baseline. One that changes with the KPI value, wh
 - __Topic__. A topic is a method by which Watson AIOps Metric Manager can separate data logically by geographical location, application, or any other grouping, making sense to the user. 
 - __Training__. Training is the number of weeks (default 2) by which Watson AIOps Metric Manager builds its analytics model and learns the behavior for the metric groups, metrics, and resources defined in the mediation model.
 
+#### [<Mediation](../mediation)                                         [Back^](../)
