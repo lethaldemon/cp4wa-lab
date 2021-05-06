@@ -9,7 +9,7 @@ The usual way that an Operation center works is through `Management by Exception
 
 #### Flatline causing Slow Response Time.
 
-When a metric typically varies and then stops varying, it almost always means something has gone wrong. It's stuck, or something feeding it is stuck, or something it's sending to is stuck. The ability to detect this behavior is beneficial. All customers with systems with limits of some kind – memory on a machine, connections to a database, traffic through a link, flow through a pipe, etc. will find this valuable. Metric Manager allows you to detect the threshold has been met without knowing the actual limit itself.
+When a metric typically varies and then stops varying, it almost always means something has gone wrong. It's stuck, or something feeding it is stuck, or something it's sending to is stuck. The ability to detect this behavior is beneficial. All customers with systems with limits of some kind – memory on a machine, connections to a database, traffic through a link, flow through a pipe, etc, will find this valuable. Metric Manager allows you to detect the threshold has been met without knowing the actual limit itself.
 
 #### The Scenario.
 
@@ -28,7 +28,7 @@ Observe:
 - Check the list for individual anomalies discovered by Predictive Insights. You can see when an anomaly has started and finished occurring in the `FirstOccurrence` and `LastOccurrence` columns. `Summary` column describes the anomaly. `Count` shows how many times the anomaly has occurred. Columns like `Node`, `AnomalousResource`, `AnomalousMetric`, and `Direction` provide additional information on the anomaly.
 - There is one event with the severity `Major`. The major anomalies represent consolidated events found by Metric Manager. In the `Summary` column, you can see the type of consolidation and how many metrics or nodes are involved.
 
-Select the event with Summary `Connectionpoolsize is now a flat line where before it was varying` and Node `PrimaryKWPUBIIS06`.
+Click on the event with Node value `PrimaryKWPUBIIS06`, and Summary `Connectionpoolsize is now a flat line where before it was varying`.
 
 Observe:
 
@@ -80,6 +80,6 @@ In typical operation, the system runs close to its limit. That is why the system
 
 #### Customer Quotes
 
-_Before Predictive Insights (previous name of Metric Manager), it took 30 minutes to decide what to investigate. Now it takes less than 3 minutes._
+- "_Before Predictive Insights (previous name of Metric Manager), it took 30 minutes to decide what to investigate. Now it takes less than 3 minutes._"
 
 #### [<Prev](../uc1)                                         [Next>](../uc3/)
