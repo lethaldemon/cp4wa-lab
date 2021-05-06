@@ -50,7 +50,7 @@ A typical use of Metric Manager is to observe and act on the generated events. T
 
 We will start the first exercise by giving you an overview of the generated anomaly.
 
-The Metric Manager lab exercise is grouped into Use Cases. Metric Manager performs the analysis without any user configuration.  Once you configured the mediation and started feeding data into Metric Manager, all the algorithm is performed for you automatically.  This allows us to concentrate on the output of these algorithms for these lab exercises.
+Metric Manager performs the analysis without any user configuration.  Once you configured the mediation and started feeding data into Metric Manager, all the algorithm is performed for you automatically.  This allows us to concentrate on the output of these algorithms for these lab exercises. The Metric Manager lab exercise is grouped into Use Cases. 
 
 You will use the Firefox browser to perform the lab exercise. Start firefox by either clicking on the firefox icon on the menu bar or on the desktop.
 There should already be a bookmark labeled `IBM Dashboard Application` on the firefox Bookmark toolbar area. 
@@ -63,7 +63,7 @@ Login as user `ncoadmin` with password `ncoadmin`. then click on the Use Case 1 
 
 ### [Use Case 3: Dynamic Threshold](./uc3/)
 
-### [Use Case 4: Forecast](./uc3/)
+### [Use Case 4: Forecast](./uc4/)
 
 ### [Mediation](./mediation/)
 
