@@ -4,11 +4,11 @@
 ### Use Case 1: Anomaly Dashboard and Causal Group.
 
 #### Causal Group
-This use case highlights Metric Manager capabilities in creating a causal group: a group of KPIs that relate to each other. It is useful in operation, as when there is a potential issue, you may want to know other factors or alerts related to or caused by the issue.  This is an area where all SREs want to know to resolve the potential problem quickly.
+This use case highlights Metric Manager capabilities in creating a causal group: a group of KPIs that relate to each other. It is useful in operation, as when there is a potential issue, you may want to know other factors or events related to or caused by the issue.  This is an area where all SREs want to know to resolve the potential problem quickly.
 
 #### Metric Manager Anomaly Dashboard
 
-You start this lab exercise by already logged in as user `scadmin` in the `DASH`.
+You start this lab exercise by already logged in as user `ncoadmin` in the integrated Event Manager and Metric Manager user interface.
 From the dashboard, click the incident menu (it looks like a flag).
 
 <img src="./images/UC11.png" alt="Watson AIOps Metric Manager" width="250" align="center"/>
