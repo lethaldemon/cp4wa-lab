@@ -35,7 +35,7 @@ You will see an overview of the detected anomalies in the system. There will be 
 Observe by:
 - Spend a few minutes observing the dashboard.
 - Hover your mouse on the shapes and histogram, and notice the information popup.
-- Notice the Topic Name THINK21 in the data. Metric Manager analyzes the relationship between KPIs (resources and metrics} in the same topic. 
+- Notice the Topic Name THINK21 in the data. Metric Manager analyzes the relationship between KPIs (resources and metrics) in the same topic. 
 
 We want to look at the resources in our data set that produces the most events. `Server:HDD1` has the biggest circle, with event counts of 4. Let us look at the resource that produces the most anomaly. Click on the biggest circle in the __Top 10 Anomalous Resources__, and you will see the list of the four groups.
 
