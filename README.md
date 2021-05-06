@@ -8,4 +8,3 @@ IBM Cloud Pak for Watson AIOps has several components. In this lab, you will be 
 - [Event and Topology Manager.](./event-and-topology-manager)
 - [Metric Manager.](./mm/)
 
-
