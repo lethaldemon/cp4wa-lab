@@ -1,7 +1,7 @@
 # THINK 2021, Lab:2177
 ## Build Intelligent IT Operation with IBM Cloud Pak for Watson AIOps.
 ## Metric Manager.
-### Use Case 2: .Flat line causing Slow Response Time.
+### Use Case 2: Flat line causing Slow Response Time.
 
 #### Metric Manager Anomaly events.
 
