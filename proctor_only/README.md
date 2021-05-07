@@ -25,6 +25,9 @@ The student is accessing the Metric Manager from the jump server. So the name sh
 
 DASH is accessing PIUI by making HTTPS request, check that the certificate is accepted.
 
+
+#### For dual VM mode.
+
 WHen there is issues on the lab, check:
 1. Can the jump server connect to Metric Manager by hostname?
    From a terminal windows run
@@ -35,6 +38,8 @@ WHen there is issues on the lab, check:
     If it can not then it become  a standard networking, name resolution.
 
 2.  Can you login to DASH using the password.  If you can not then maybe object server is not running.     
+
+#### Common.
 
 The following are to check that the services are running.
 
@@ -67,3 +72,21 @@ service piui start
 service piui status
 ```
 
+####  RACE CONDITION FOUND DURING TESTING
+During testing it was found that db2 on the Metric Manager image was not running.
+Normally this is caused by IP address not being assigned to the VM.
+It is suspected that there is a race condition where db2 has already started and the IP address only being assigned to the image a bit later.
+
+Here is the step to fix it:
+1. Login as user `scadmin` password `scadmin`.
+2. Open a terminal windows, and perform the following
+
+```
+$ db2start
+$ su -     # password is `passw0rd`
+# service piui stop
+# service piui start
+```
+
+3. Verify by login in into DASH (username/password: `ncoadmin`/`ncoadmin`) and make sure that you can
+   see the iceflakes icon for Metric Manager (Lowest icons on the top group of icons).
