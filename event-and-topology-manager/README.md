@@ -10,19 +10,21 @@ As part of this tutorial you will
 
 * [Launch the console](#Launch-the-console)
 * [Navigate the Event Viewer ](#Navigate-the-Event-Viewer )
-* [Analytics based grouping of the events](#Analytics-based-grouping-of-the-events)
+* [Analytics based grouping of the events](#Analytics-based-grouping-of-the-events)  
+* [Integrate with other systems](#Integrate-with-other-systems)
 
+The event viewer URL: **https://netcool-evtmanager.think-lab-2177b-6a6ac8c3d7a0ea50590dce8fa3fd273c-0000.us-south.containers.appdomain.cloud/aiops/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/**
 
 ## Launch the console
 
-In the environment provided to you, in the desktop vm, launch the browser. Select the bookmark **EventManager-Console**.  
+In the environment provided to you, in the desktop vm, launch the browser. Copy the URL for the **event viewer** (listed above) to the browser.
 
 ![console](images/console.png)  
 
 Use the credentials provided to you and select **Login** button.  
 ```
 For example:
-userid: user1
+userid: user11
 password: xxxxxxxxxx
 ```  
 Once you login, you can navigate to the event viewer.  
@@ -120,4 +122,89 @@ In the above view each column represent a type a of correlation associated with 
    * Change Topology appearance: You can change the topology appearance. In the canvas of the topology you will various tools representing, zoom in, zoom out and so on. Select the topology icon and select the format you want. You will see the topology appearance changes.
 
      ![topology1](images/topology1.png) 
+
+## Integrate with other systems
+
+As part of the integration, you can send events from many tools. List of the integrations with other systems, in addition to generic **Webhook** are listed below:
+
+![integrations](images/integrate.png)  
+
+A sample webhook is created is available for incoming events. As part of this tutorial, you will 
+
+* Create JSON file representing an event.
+* Use curl to send the created json file as payload to the existing webhook
+* Check the event in the event viewer
+
+### Create JSON representing a sample event
+
+Using the provided desktop, in a command terminal using vim or vi create file  
+
+```
+vi userXX.json
+
+Note: Replace userXX with the user-id assigned to you.
+      For example user11.json
+```  
+
+Now copy the content to the file.  
+
+```  
+{
+    "issue": {
+        "id": "jfjNHG5eTFKTWEic4vuO3Q",
+        "type": "issue",
+        "state": "OPEN",
+        "start": 1614249367000,
+        "severity": 10,
+        "text": "Condition [Ready]: ContainersNotReady",
+        "suggestion": "containers with unready status: [mongodb]",
+        "link": "https://pirsoscom.github.io/INSTANA_SUMMARY_NOK_ROB.html",
+        "entityType": "Kubernetes Pod",
+        "customZone": "not available",
+        "availabilityZone": "not available",
+        "zone": "not available",
+        "fqdn": "not available",
+        "entity": "Kubernetes Pod",
+        "entityLabel": "robot-shop/userXX-mongodb-2332-2335 (pod)",
+        "tags": "not available",
+        "container": "userXX-mongodb",
+        "service": "catalogue",
+        "containerNames": []
+    }
+}
+
+Note: Replace userXX with the user-id assigned to you.
+      For example user11.json
+```  
+
+As you are going to use the same terminal window to run the curl command, you need set a vaiable for the webhook URL and then run the curl command as show below.  
+
+```
+export WEBHOOK_URL=https://netcool-evtmanager.apps.ahsoka.coc-ibm.com/norml/webhook/webhookincomming/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/14f8f86c-af03-47ac-83e8-6fe54279afdd/IS1Yxz5_YvwQ24mhNcFqa_PifAUNbavGuuwd0VD9UWU
+
+curl -XPOST -H "Content-type: application/json" -d @./userXX.json $WEBHOOK_URL 
+
+Note: Replace userXX with the user-id assigned to you.
+      For example user11.json
+```
+
+As the webhook is receiving the events, you will see an output similar to  
+
+```
+{"deduplicationKey":"739d1cecc698f59cb5e368c73b682189","eventid":"791bb600-aecd-11eb-a49d-39ebaf15bf05"}
+```
+
+Now, you can validate if the event is created. In the event viewer, refresh the events ![refresh](images/rfresh.png). As this is a shared environment, you may view similar events with a different **Node** name as every user uses the user-id as prefix.
+
+Saerch for events with name **userXX-mongodb** ( Example: if your user-id is user11, search for user11-mongodb). You will find that the event is created by you via webhook.  
+
+![event-webhook](images/event-webhook.png)  
+
+## Conclusion
+
+As part of this tutorial, you navigated the event viewer. You experienced how the Analytics are applied and grouped the events. You walked through the various event correlations and saw how easy it is to integrate with other systems. 
+
+
+
+I
 
