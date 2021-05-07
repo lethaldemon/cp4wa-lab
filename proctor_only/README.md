@@ -86,7 +86,7 @@ $ db2start
 $ su -     # password is `passw0rd`
 # service piui stop
 # service piui start
+# exit
 ```
 
-3. Verify by login in into DASH (username/password: `ncoadmin`/`ncoadmin`) and make sure that you can
-   see the iceflakes icon for Metric Manager (Lowest icons on the top group of icons).
+3. Verify by starting Firefox, then login in into DASH (username/password: `ncoadmin`/`ncoadmin`) and make sure that you can see the iceflakes icon for Metric Manager (Lowest icons on the top group of icons).
