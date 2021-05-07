@@ -90,3 +90,5 @@ $ su -     # password is `passw0rd`
 ```
 
 3. Verify by starting Firefox, then login in into DASH (username/password: `ncoadmin`/`ncoadmin`) and make sure that you can see the iceflakes icon for Metric Manager (Lowest icons on the top group of icons).
+
+Note: if you are already login to DASH before executing the piui stop and start above then you need to logout and then back login to see the iceflake icon.
