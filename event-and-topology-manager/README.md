@@ -1,6 +1,6 @@
-# Introduction
+# Introduction.
 
-Event manager is a component in IBM Cloud Pak for Watson AIOps. The event manager provides you the capability to monitor, troubleshoot and resolve alerts in your in your application, services, IT and network infrastructure. Event manager provides the capability to troubleshoot, resolve and act on the events directly from the provided console. 
+The event manager is a component of IBM Cloud Pak for Watson AIOps. It equips you with a console that allows you to monitor, troubleshoot and resolve alerts in your application, services, and network infrastructure.
 
 Event manager provides the industry leading advanced event correlation. It uses algorithms like association rule-learning, temporal, spatial clustering and other machine learning (ML) algorithms. It measures accuracy, cohesion and completeness of the correlation. This, not only reduces the event flood, but also accelerates the incident diagnosis.
 
@@ -204,7 +204,4 @@ Search for events with name **userXX-mongodb** ( Example: if your user-id is use
 
 As part of this tutorial, you navigated the event viewer. You experienced how the Analytics are applied and grouped the events. You walked through the various event correlations and saw how easy it is to integrate with other systems. 
 
-
-
-I
 
