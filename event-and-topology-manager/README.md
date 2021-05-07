@@ -61,7 +61,7 @@ By default, out of the box, example analytics is provided. This is named as **Ex
 
 ![analytics](images/example-analytics.png)
 
-You will notice the appearance of ![down-arrow](images/downarrow.png) icon before the **Sev** column. This means that few events are grouped. You click it to display all the events that grouped, where the events are grouped against `Weekly backup started on Hypervisor hyper.example.com`.  
+You will notice the appearance of ![down-arrow](images/downarrow.png) icon before the **Sev** column. This means that few events are grouped. You click it to display all the events that grouped, where the events are grouped against `Critical CPU usage on Hypervisor hyper.example.com`.  
 
 ![expand-events](images/eventviewer3.png)  
 
@@ -75,7 +75,7 @@ In the above view each column represent a type a of correlation associated with 
 
 1. Column with icon ![temporal](images/temporal.png) provides the temporal correlation. Events which occur briefly are all grouped together and represented here. 
 
-   Select the first event in group which has Node value as `https://myapp.example.com`.  When you click **.d**, you will see more details on this correlation. In the details section you will when this event happened first and how many instances are grouped. This also shows the instance duration. You will see a calendar showing when this type of event occurred.
+   Select the first event in group which has Node value as `https://myapp.example.com`.  When you click **.c**, you will see more details on this correlation. In the details section you will when this event happened first and how many instances are grouped. This also shows the instance duration. You will see a calendar showing when this type of event occurred.
 
    ![temporal correlation](images/temporal-correlation.png)
 
@@ -87,15 +87,11 @@ In the above view each column represent a type a of correlation associated with 
 
    ![seasonal-alt](images/seasonal-alt.png)  
 
-3. Column with icon ![scope](images/scopebased.png) provides the scope based event correlation. All the events that fall under a particular scope are correlated and displayed here. In the view below, you will find two types of scope based grouping. They are shown as **Err** and **hyp**. 
+3. Column with icon ![scope](images/scopebased.png) provides the scope based event correlation. All the events that fall under a particular scope are correlated and displayed here. In the view below, you will find a type of scope based grouping. They are shown as **hyp**. 
 
-   ![scope based correlation](images/scopebased-correlation.png)  
+   ![scope based correlation](images/scopebased-correlation1.png)  
 
-   Once you click on the highlighted event (as pointed by red arrow), the information of the event for scope based correlation opens up. Here, you will see the scope, the number of events and their summary. You will notice the scope is based on *Error rate**. 
-
-   Now click on event which represents scope based correlation as **hyp** in the picture to find the details of this event. 
-
-   ![scope based1](images/scopebased-correlation1.png)
+   Once you click on the highlighted event (as pointed by red arrow), the information of the event for scope based correlation opens up. Here, you will see the scope, the number of events and their summary. You will notice the scope is based on *hyper.example.com**. 
 
    You will find the scope of this event is different than the earlier one. This event has scope for the hostname of the hypervisor itself.   
 
@@ -177,10 +173,10 @@ Note: Replace userXX with the user-id assigned to you.
       For example user11.json
 ```  
 
-As you are going to use the same terminal window to run the curl command, you need set a vaiable for the webhook URL and then run the curl command as show below.  
+As you are going to use the same terminal window to run the curl command, you need set a variable for the webhook URL and then run the curl command as show below.  
 
 ```
-export WEBHOOK_URL=https://netcool-evtmanager.apps.ahsoka.coc-ibm.com/norml/webhook/webhookincomming/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/14f8f86c-af03-47ac-83e8-6fe54279afdd/IS1Yxz5_YvwQ24mhNcFqa_PifAUNbavGuuwd0VD9UWU
+export WEBHOOK_URL=https://netcool-evtmanager.think-lab-2177b-6a6ac8c3d7a0ea50590dce8fa3fd273c-0000.us-south.containers.appdomain.cloud/norml/webhook/webhookincomming/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/6634bf9b-4ce6-4803-a8cb-c4213c29dba1/-1-mfCy1fvSbYFnU7XDNi04ZkmsT71o2TQdwe_qVDs0
 
 curl -XPOST -H "Content-type: application/json" -d @./userXX.json $WEBHOOK_URL 
 
@@ -199,6 +195,15 @@ Now, you can validate if the event is created. In the event viewer, refresh the 
 Search for events with name **userXX-mongodb** ( Example: if your user-id is user11, search for user11-mongodb). You will find that the event is created by you via webhook.  
 
 ![event-webhook](images/event-webhook.png)  
+
+#### Delete the event
+
+Select the event which was created earlier. Under **Actions** section, you will find **Delete** which deletes the created event.
+
+**Note:** Caution to delete only the event you created such as **userXX-mongodb**.
+
+![Delete](images/deleteevent.png)
+
 
 ## Conclusion
 
