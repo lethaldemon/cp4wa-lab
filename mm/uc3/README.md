@@ -61,4 +61,4 @@ Observe:
 - "_IBM was able to detect 100% of the major incidents that occurred, including silent failures and predicting outages where possible; showing an annual saving of ~300k and product payback period of 5 months._"
 
 
-#### [<Prev](../uc3)                                         [Next >](../uc4)
+#### [<Prev](../uc3)                                         [Next>](../uc4)

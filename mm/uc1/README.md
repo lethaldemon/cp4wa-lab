@@ -103,4 +103,4 @@ Observe that:
 - As the metric manager learns data, the baseline becomes more `shapely`. The baseline creates a tighter contour to determine the anomalous behaviors.
 
 
-#### [<Prev](../)                                         [Next >](../uc2/)
+#### [<Prev](../)                                         [Next>](../uc2/)

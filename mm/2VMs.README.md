@@ -17,22 +17,24 @@ Here is a diagram on Watson AIOps Metric Manager.
 
 ### Lab setup.
 
-To start the lab, if you have not done so, access the VM images. If it has not been started, start the `VM136_PoC_rh6_9` images.
+To start the lab, if you have not done so, access the VM image. If it has not been started, start both the `rhdesk` and `VM136_PoC_rh6_9` images.
 > **Note:** You can start the VMs by clicking on the `play` icon above each image, either the play symbol at the top to start both images or upon each monitor's picture.
 
 <img src="./images/mm02.png" alt="Watson AIOps Lab images" width="500" align="center"/>
 
-You will be working in the __VM136_PoC_rh6_9__ image.
-Once the image is running, click on the _VM136_PoC_rh6_9_ image and start your web sessions.
+Like other Watson AIOps Lab exercises, you will be working in the __rhdesk__ images.
+Once both images are running, click on the _rhdesk_ image and start your web sessions.
 
 The following table list the username and password for the lab exercise.
 
 | Component | User Name | Password |
 | --- | :---: | :---: |
-| Linux | `scadmin` | `scadmin` |
+| Linux | `ibmuser` | `engageibm!` |
 | DASH | `ncoadmin` | `ncoadmin` |
 
-Login as `scadmin` by clicking on the name displayed. The password is `scadmin`.
+Login as `ibmuser` by clicking on the name displayed. The password is `engageibm!`.
+<br>
+<img src="./images/mm03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
 > **Note:** In this guide, you can always click on the diagram to see the bigger picture.
 
@@ -68,4 +70,4 @@ Login as user `ncoadmin` with password `ncoadmin`. then click on the Use Case 1 
 ### [Reference](./ref/)
 
 
-#### [Next>](./uc1/)
+#### [Next >](./uc1/)
