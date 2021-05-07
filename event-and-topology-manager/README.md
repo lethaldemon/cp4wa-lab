@@ -75,7 +75,7 @@ In the above view each column represent a type a of correlation associated with 
 
 1. Column with icon ![temporal](images/temporal.png) provides the temporal correlation. Events which occur briefly are all grouped together and represented here. 
 
-   Select the first event in group which has Node value as `https://myapp.example.com`.  When you click **.d**, you will see more details on this correlation. In the details section you will when this event happened first and how many instances are grouped. This also shows the instance duration. You will see a calendar showing when this type of event occurred.
+   Select the first event in group which has Node value as `https://myapp.example.com`.  When you click **.c**, you will see more details on this correlation. In the details section you will when this event happened first and how many instances are grouped. This also shows the instance duration. You will see a calendar showing when this type of event occurred.
 
    ![temporal correlation](images/temporal-correlation.png)
 
@@ -204,12 +204,9 @@ Select the event which was created earlier. Under **Actions** section, you will 
 
 ![Delete](images/deleteevent.png)
 
-<<<<<<< HEAD
 
 ## Conclusion
 
 As part of this tutorial, you navigated the event viewer. You experienced how the Analytics are applied and grouped the events. You walked through the various event correlations and saw how easy it is to integrate with other systems. 
 
 
-=======
->>>>>>> 3a242b62ef8444dbf6fd93cd8abf4cb7bbb4d4cb
