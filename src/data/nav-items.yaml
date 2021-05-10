@@ -1,6 +1,12 @@
 - title: Think Lab 2177
   pages:
     - path: /
+- title: Working with AI Manager
+  pages:
+    - path: /aimgr
+- title: Working with Event Manager
+  pages:
+    - path: /event-and-topology-manager
 - title: Working with Metric Manager
   pages:
     - title: Getting Started
@@ -17,7 +23,4 @@
       path: /mm/mediation
     - title: Reference
       path: /mm/ref
-- title: Working with Event Manager
-  pages:
-    - path: /event-and-topology-manager
  
