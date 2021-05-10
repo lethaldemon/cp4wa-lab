@@ -135,16 +135,18 @@ A sample webhook is created is available for incoming events. As part of this tu
 
 Using the provided desktop, in a command terminal using vim or vi create file  
 
-```
+```bash
 vi userXX.json
+```
 
-Note: Replace userXX with the user-id assigned to you.
+* Note: Replace userXX with the user-id assigned to you.
+      
       For example user11.json
-```  
+
 
 Now copy the content to the file.  
 
-```  
+```yaml 
 {
     "issue": {
         "id": "jfjNHG5eTFKTWEic4vuO3Q",
@@ -168,25 +170,28 @@ Now copy the content to the file.
         "containerNames": []
     }
 }
+```
 
-Note: Replace userXX with the user-id assigned to you.
+* Note: Replace userXX with the user-id assigned to you.
+
       For example user11.json
-```  
+  
 
 As you are going to use the same terminal window to run the curl command, you need set a variable for the webhook URL and then run the curl command as show below.  
 
-```
+```bash
 export WEBHOOK_URL=https://netcool-evtmanager.think-lab-2177b-6a6ac8c3d7a0ea50590dce8fa3fd273c-0000.us-south.containers.appdomain.cloud/norml/webhook/webhookincomming/cfd95b7e-3bc7-4006-a4a8-a73a79c71255/6634bf9b-4ce6-4803-a8cb-c4213c29dba1/-1-mfCy1fvSbYFnU7XDNi04ZkmsT71o2TQdwe_qVDs0
 
 curl -XPOST -H "Content-type: application/json" -d @./userXX.json $WEBHOOK_URL 
-
-Note: Replace userXX with the user-id assigned to you.
-      For example user11.json
 ```
+
+* Note: Replace userXX with the user-id assigned to you.
+      
+      For example user11.json
 
 As the webhook is receiving the events, you will see an output similar to  
 
-```
+```yaml
 {"deduplicationKey":"739d1cecc698f59cb5e368c73b682189","eventid":"791bb600-aecd-11eb-a49d-39ebaf15bf05"}
 ```
 
