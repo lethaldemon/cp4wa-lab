@@ -1,80 +1,23 @@
-- title: Getting started
+- title: Think Lab 2177
   pages:
-    - path: /getting-started
-- title: Demo
+    - path: /
+- title: Working with Metric Manager
   pages:
-    - path: /demo
-- title: Gallery
+    - title: Getting Started
+      path: /mm
+    - title: Use Case 1
+      path: /mm/uc1
+    - title: Use Case 2
+      path: /mm/uc2
+    - title: Use Case 3
+      path: /mm/uc3
+    - title: Use Case 4
+      path: /mm/uc4
+    - title: Mediation
+      path: /mm/mediation
+    - title: Reference
+      path: /mm/ref
+- title: Working with Event Manager
   pages:
-    - path: /gallery
-- title: Contributions
-  pages:
-    - path: /contributions
-- title: Guides
-  pages:
-    - title: Authoring MDX
-      path: /guides/MDX
-    - title: Configuration
-      path: /guides/configuration
-    - title: Gatsby Sketch kit
-      path: /guides/sketch-kit
-    - title: Hosting
-      path: /guides/hosting
-    - title: Navigation
-      path: /guides/navigation/sidebar
-    - title: npm scripts
-      path: /guides/npm-scripts
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-- title: Components
-  pages:
-    - title: Accordion
-      path: /components/Accordion
-    - title: AnchorLinks
-      path: /components/AnchorLinks
-    - title: ArtDirection
-      path: /components/ArtDirection
-    - title: ArticleCard
-      path: /components/ArticleCard
-    - title: Aside
-      path: /components/Aside
-    - title: Caption
-      path: /components/Caption
-    - title: Code blocks
-      path: /components/code-blocks
-    - title: DoDontExample
-      path: /components/DoDontExample
-    - title: DoDontRow
-      path: /components/DoDontRow
-    - title: FeatureCard
-      path: /components/FeatureCard
-    - title: FeedbackDialog
-      path: /components/FeedbackDialog
-    - title: GifPlayer
-      path: /components/GifPlayer
-    - title: Grid
-      path: /components/Grid
-    - title: ImageCard
-      path: /components/ImageCard
-    - title: ImageGallery
-      path: /components/ImageGallery
-    - title: InlineNotification
-      path: /components/InlineNotification
-    - title: Markdown
-      path: /components/markdown
-    - title: MediumPosts
-      path: /components/MediumPosts
-    - title: MiniCard
-      path: /components/MiniCard
-    - title: PageDescription
-      path: /components/PageDescription
-    - title: ResourceCard
-      path: /components/ResourceCard
-    - title: Tabs
-      path: /components/Tabs
-    - title: Title
-      path: /components/Title
-    - title: Video
-      path: /components/Video
+    - path: /event-and-topology-manager
+ 
