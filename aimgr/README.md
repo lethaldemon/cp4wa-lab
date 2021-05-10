@@ -10,4 +10,4 @@ IBM Cloud Pak for Watson AIOps can process both structured data like metrics or 
 ## Lab
 This lab will walk you through how you can use data that has been connected to train Cloud Pak for Watson AIOps to detect anomalies. Then it will walk you through how those insights can save you time in a typical scenario. It can take hours to train data using the prebuilt models, so this lab is facilitated by using a click-through captured from the product.
 
-To access the AI Manager lab, go to http://cp4wa.169.47.14.148.nip.io/aimgr and click the start button that looks like this: ![Start button](./images/aimgr2.png)
+This lab works best if you maximize the skytap window using the maximize button from the skytap drop down that looks like this ![Maximize](./images/aimgr3.png). To access the AI Manager lab, go to http://cp4wa.169.47.14.148.nip.io/aimgr and click the start button that looks like this: ![Start button](./images/aimgr2.png).
