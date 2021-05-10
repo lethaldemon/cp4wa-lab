@@ -22,8 +22,8 @@ In the environment provided to you, in the desktop vm, launch the browser. Copy 
 ![console](images/console.png)  
 
 Use the credentials provided to you and select **Login** button.  
-```
 For example:
+```
 userid: user11
 password: xxxxxxxxxx
 ```  
@@ -141,7 +141,7 @@ vi userXX.json
 
 * Note: Replace userXX with the user-id assigned to you.
       
-      For example user11.json
+For example user11.json
 
 
 Now copy the content to the file.  
@@ -174,7 +174,7 @@ Now copy the content to the file.
 
 * Note: Replace userXX with the user-id assigned to you.
 
-      For example user11.json
+For example user11.json
   
 
 As you are going to use the same terminal window to run the curl command, you need set a variable for the webhook URL and then run the curl command as show below.  
@@ -187,7 +187,7 @@ curl -XPOST -H "Content-type: application/json" -d @./userXX.json $WEBHOOK_URL
 
 * Note: Replace userXX with the user-id assigned to you.
       
-      For example user11.json
+ For example user11.json
 
 As the webhook is receiving the events, you will see an output similar to  
 
@@ -205,7 +205,7 @@ Search for events with name **userXX-mongodb** ( Example: if your user-id is use
 
 Select the event which was created earlier. Under **Actions** section, you will find **Delete** which deletes the created event.
 
-**Note:** Caution to delete only the event you created such as **userXX-mongodb**.
+**Note:** Be careful to delete only the event which you created such as **userXX-mongodb**.
 
 ![Delete](images/deleteevent.png)
 
