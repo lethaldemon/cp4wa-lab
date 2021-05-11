@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Think21 Lab 2177",
-    description: "Tutorials for Tink 2021 Lab 2177 (Cloud Pak for Watson AIOps)",
+    description: "Tutorials for Think 2021 Lab 2177 (Cloud Pak for Watson AIOps)",
     keywords: "gatsby,theme,carbon",
   },
   plugins: [
