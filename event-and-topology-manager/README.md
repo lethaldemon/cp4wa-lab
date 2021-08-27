@@ -195,7 +195,9 @@ As the webhook is receiving the events, you will see an output similar to
 {"deduplicationKey":"739d1cecc698f59cb5e368c73b682189","eventid":"791bb600-aecd-11eb-a49d-39ebaf15bf05"}
 ```
 
-Now, you can validate if the event is created. In the event viewer, refresh the events ![refresh](images/rfresh.png). As this is a shared environment, you may view similar events with a different **Node** name as every user uses the user-id as prefix. Change the filter to display **ALL Events**
+Now, you can validate if the event is created. In the event viewer, refresh the events ![refresh](images/rfresh.png). As this is a shared environment, you may view similar events with a different **Node** name as every user uses the user-id as prefix. 
+
+Change the filter to display **ALL Events**
 
 ![change-filter](images/allevents-filter.png)
 
