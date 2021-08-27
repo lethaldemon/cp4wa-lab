@@ -10,7 +10,7 @@ const Content = () => (
           <br /> an issue on{' '}
           <a
               style={{ textDecoration: 'underline' }}
-              href="https://github.com/cruxdaemon/think-cp4wa-lab/issues/new">
+              href="https://github.com/lethaldemon/cp4wa-lab/issues/new">
               GitHub.
           </a>
       </p>
