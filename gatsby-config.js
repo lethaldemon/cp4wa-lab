@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Think21 Lab 2177",
-    description: "Tutorials for Think 2021 Lab 2177 (Cloud Pak for Watson AIOps)",
+    title: "TechCon 2021",
+    description: "Tutorials for TechCon 2021(Cloud Pak for Watson AIOps)",
     keywords: "gatsby,theme,carbon",
   },
   plugins: [
@@ -24,12 +24,12 @@ module.exports = {
         isSearchEnabled: true,
         repository: {
           baseUrl:
-            'https://github.com/cruxdaemon/think-cp4wa-lab',
+            'https://github.com/lethaldemon/cp4wa-lab',
           subDirectory: '/',
           branch: 'gatsby'
         },
       },      
     }
   ],
-  pathPrefix: "/think-cp4wa-lab"
+  pathPrefix: "/cp4wa-lab"
 };
