@@ -17,24 +17,23 @@
 
 ### Lab setup.
 
-    To start the lab, if you have not done so, access the VM image. If it has not been started, start both the `rhdesk` and `VM136_PoC_rh6_9` images.
-    **Note:** You can start the VMs by clicking on the `play` icon above each image, either the play symbol at the top to start both images or upon each monitor's picture.
+    To start the lab, if you have not done so, access the VM image. If it has not been started, start the `AIOps-4552-1` image.
+    **Note:** You can start the VM by clicking on the `play` icon above the image.
 
     <img src="./images/mm02.png" alt="Watson AIOps Lab images" width="500" align="center"/>
 
-    Like other Watson AIOps Lab exercises, you will be working in the __rhdesk__ images.
-    Once both images are running, click on the _rhdesk_ image and start your web sessions.
+    Like other Watson AIOps Lab exercises, you will be working in the __AIOps-4552-1__ images.
+    Once both images are running, click on the _AIOps-4552-1_ image and start your web sessions.
 
     The following table list the username and password for the lab exercise.
 
     | Component | User Name | Password |
     | --- | :---: | :---: |
-    | Linux | `ibmuser` | `engageibm!` |
+    | Linux | `scadmin` | `scadmin` |
     | DASH | `ncoadmin` | `ncoadmin` |
 
-    Login as `ibmuser` by clicking on the name displayed. The password is `engageibm!`.
+    Login as `scadmin` by clicking on the name displayed. The password is `scadmin`.
     <br>
-    <img src="./images/mm03.png" alt="Watson AIOps Lab images" width="300" align="center"/>
 
     **Note:** In this guide, you can always click on the diagram to see the bigger picture.
 
